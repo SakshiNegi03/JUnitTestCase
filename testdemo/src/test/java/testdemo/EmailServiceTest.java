@@ -13,7 +13,7 @@ public class EmailServiceTest {
     public void sendEmailRuntimeExceptionTest()
     {
 		emailService.sendEmail(order);
-        System.out.println("exception not occur !!");
+        System.out.println(" found exception occur !!");
     }
  
     @Test
